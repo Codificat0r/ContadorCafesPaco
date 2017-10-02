@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ContadorCafes</string>
+    <string name="txtCafes">Cafés</string>
+    <string name="txtNumero">0</string>
+    <string name="btnMas">+</string>
+    <string name="btnMenos">-</string>
+</resources>

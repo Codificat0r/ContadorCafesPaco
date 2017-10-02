@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:layout_weight="0.45"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtCafes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txtCafes" />
+
+        <TextView
+            android:id="@+id/txtNumero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtNumero" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMenos"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnMenos" />
+
+        <TextView
+            android:id="@+id/txtTiempo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/btnMas"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnMas" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnEmpezar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Empezar" />
+
+</LinearLayout>
