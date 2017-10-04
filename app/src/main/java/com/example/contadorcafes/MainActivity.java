@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 public void onTick(long millisUntilFinished) {
                     minutos = (millisUntilFinished / 1000) / 60;
                     segundos = (millisUntilFinished / 1000) % 60;
-                    txtTiempo.setText(Integer.toString(Math.round((float) minutos)) + ":" + String.format("%02d", Integer.toString(Math.round((float) segundos))));
+                    txtTiempo.setText(Integer.toString(Math.round((float) minutos)) + ":" + Integer.toString(Math.round((float) segundos)));
                 }
 
                 @Override
